@@ -1,0 +1,43 @@
+.navbar {
+    padding: 5px;
+    margin: 0;
+    background-color: white;
+  }
+
+h1 {
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    color:brown;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+}
+
+.covered {
+    position:relative; 
+    padding:60px; 
+}
+  
+.covered-img {
+    background:url('Pictures/il_1588xN.2104894726_ihzq.jpg');
+    opacity: .03;
+  
+    background-size:cover; 
+    background-position:center;
+    
+    position:absolute; 
+    top:0;bottom:0;left:0;right:0;
+}
+
+section {
+    width:absolute;
+    height:1000px;
+}
