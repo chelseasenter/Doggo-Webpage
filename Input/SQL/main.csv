@@ -1,0 +1,173 @@
+,Breed ID,Dog Breed,ID Code,Breed Group,Temperament,Weight,Height,Bred For,Life Span,Origin,Country Code,Reference Image ID
+0,0,Affenpinscher,1,Toy,"Stubborn, Curious, Playful, Adventurous, Active, Fun-loving",6 - 13,9 - 11.5,"Small rodent hunting, lapdog",10 - 12 years,"Germany, France",,BJa4kxc4X
+1,1,Afghan Hound,2,Hound,"Aloof, Clownish, Dignified, Independent, Happy",50 - 60,25 - 27,Coursing and hunting,10 - 13 years,"Afghanistan, Iran, Pakistan",AG,hMyT4CDXR
+2,2,African Hunting Dog,3,none,"Wild, Hardworking, Dutiful",44 - 66,30,A wild pack animal,11 years,,,rkiByec47
+3,3,Airedale Terrier,4,Terrier,"Outgoing, Friendly, Alert, Confident, Intelligent, Courageous",40 - 65,21 - 23,"Badger, otter hunting",10 - 13 years,"United Kingdom, England",,1-7cgoZSh
+4,4,Akbash Dog,5,Working,"Loyal, Independent, Intelligent, Brave",90 - 120,28 - 34,Sheep guarding,10 - 12 years,,,26pHT3Qk7
+5,5,Akita,6,Working,"Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",65 - 115,24 - 28,Hunting bears,10 - 14 years,none,,BFRYBufpm
+6,6,Alapaha Blue Blood Bulldog,7,Mixed,"Loving, Protective, Trainable, Dutiful, Responsible",55 - 90,18 - 24,Guarding,12 - 13 years,none,,33mJ-V3RX
+7,7,Alaskan Husky,8,Mixed,"Friendly, Energetic, Loyal, Gentle, Confident",38 - 50,23 - 26,Sled pulling,10 - 13 years,none,,-HgpNnGXl
+8,8,Alaskan Malamute,9,Working,"Friendly, Affectionate, Devoted, Loyal, Dignified, Playful",65 - 100,23 - 25,"Hauling heavy freight, Sled pulling",12 - 15 years,none,,dW5UucTIW
+9,9,American Bulldog,10,Working,"Friendly, Assertive, Energetic, Loyal, Gentle, Confident, Dominant",60 - 120,22 - 27,none,10 - 12 years,none,,pk1AAdloG
+10,10,American Bully,11,,"Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",30 - 150,14 - 17,Family companion dog,8 – 15 years,none,US,sqQJDtbpY
+11,11,American Eskimo Dog,12,Non-Sporting,"Friendly, Alert, Reserved, Intelligent, Protective",20 - 40,15 - 19,Circus performer,12 - 15 years,none,US,Bymjyec4m
+12,12,American Eskimo Dog (Miniature),13,none,"Friendly, Alert, Reserved, Intelligent, Protective",7 - 10,9 - 12,Companionship,13 – 15 years,none,US,_gn8GLrE6
+13,13,American Foxhound,14,Hound,"Kind, Sweet-Tempered, Loyal, Independent, Intelligent, Loving",65 - 75,21 - 28,"Fox hunting, scent hound",8 - 15 years,none,US,S14n1x9NQ
+14,14,American Pit Bull Terrier,15,Terrier,"Strong Willed, Stubborn, Friendly, Clownish, Affectionate, Loyal, Obedient, Intelligent, Courageous",30 - 60,17 - 21,Fighting,10 - 15 years,none,US,HkC31gcNm
+15,15,American Staffordshire Terrier,16,Terrier,"Tenacious, Friendly, Devoted, Loyal, Attentive, Courageous",50 - 60,17 - 19,,12 - 15 years,none,US,rJIakgc4m
+16,16,American Water Spaniel,17,Sporting,"Friendly, Energetic, Obedient, Intelligent, Protective, Trainable",25 - 45,15 - 18,Bird flushing and retrieving,10 - 12 years,none,US,SkmRJl9VQ
+17,17,Anatolian Shepherd Dog,18,Working,"Steady, Bold, Independent, Confident, Intelligent, Proud",80 - 150,27 - 29,Livestock herding,11 - 13 years,none,,BJT0Jx5Nm
+18,18,Appenzeller Sennenhund,19,none,"Reliable, Fearless, Energetic, Lively, Self-assured",48 - 55,20 - 22,"Herding livestock, pulling carts, and guarding the farm",12 – 14 years,none,,HkNkxlqEX
+19,19,Australian Cattle Dog,21,Herding,"Cautious, Energetic, Loyal, Obedient, Protective, Brave",44 - 62,17 - 20,"Cattle herding, herding trials",12 - 14 years,none,AU,IBkYVm4v1
+20,20,Australian Kelpie,22,Herding,"Friendly, Energetic, Alert, Loyal, Intelligent, Eager",31 - 46,17 - 20,"Farm dog, Cattle herding",10 - 13 years,none,AU,Hyq1ge9VQ
+21,21,Australian Shepherd,23,Herding,"Good-natured, Affectionate, Intelligent, Active, Protective",35 - 65,18 - 23,Sheep herding,12 - 16 years,none,AU,B1-llgq4m
+22,22,Australian Terrier,24,Terrier,"Spirited, Alert, Loyal, Companionable, Even Tempered, Courageous",14 - 16,10 - 11,"Cattle herdering, hunting snakes and rodents",15 years,none,AU,r1Ylge5Vm
+23,23,Azawakh,25,Hound,"Aloof, Affectionate, Attentive, Rugged, Fierce, Refined",33 - 55,23 - 29,"Livestock guardian, hunting",10 - 13 years,none,,SkvZgx94m
+24,24,Barbet,26,none,"Obedient, Companionable, Intelligent, Joyful",40 - 65,20 - 26,Hunting water game,13 – 15 years,none,,HyWGexcVQ
+25,25,Basenji,28,Hound,"Affectionate, Energetic, Alert, Curious, Playful, Intelligent",22 - 24,16 - 17,Hunting,10 - 12 years,none,,H1dGlxqNQ
+26,26,Basset Bleu de Gascogne,29,Hound,"Affectionate, Lively, Agile, Curious, Happy, Active",35 - 40,13 - 15,Hunting on foot.,10 - 14 years,none,,BkMQll94X
+27,27,Basset Hound,30,Hound,"Tenacious, Friendly, Affectionate, Devoted, Sweet-Tempered, Gentle",50 - 65,14,Hunting by scent,12 - 15 years,none,,Sy57xx9EX
+28,28,Beagle,31,Hound,"Amiable, Even Tempered, Excitable, Determined, Gentle, Intelligent",20 - 35,13 - 15,"Rabbit, hare hunting",13 - 16 years,none,,Syd4xxqEm
+29,29,Bearded Collie,32,Herding,"Self-confidence, Hardy, Lively, Alert, Intelligent, Active",45 - 55,20 - 22,Sheep herding,12 - 14 years,none,,A09F4c1qP
+30,30,Beauceron,33,Herding,"Fearless, Friendly, Intelligent, Protective, Calm",80 - 110,24 - 27.5,"Boar herding, hunting, guarding",10 - 12 years,none,,HJQ8ge5V7
+31,31,Bedlington Terrier,34,Terrier,"Affectionate, Spirited, Intelligent, Good-tempered",17 - 23,15 - 16,"Killing rat, badger, other vermin",14 - 16 years,none,,ByK8gx947
+32,32,Belgian Malinois,36,Herding,"Watchful, Alert, Stubborn, Friendly, Confident, Hard-working, Active, Protective",40 - 80,22 - 26,Stock herding,12 - 14 years,none,,r1f_ll5VX
+33,33,Belgian Tervuren,38,Herding,"Energetic, Alert, Loyal, Intelligent, Attentive, Protective",40 - 65,22 - 26,"Guarding, Drafting, Police work.",10 - 12 years,none,,B1KdxlcNX
+34,34,Bernese Mountain Dog,41,Working,"Affectionate, Loyal, Intelligent, Faithful",65 - 120,23 - 27.5,Draft work,7 - 10 years,none,,S1fFlx5Em
+35,35,Bichon Frise,42,Non-Sporting,"Feisty, Affectionate, Cheerful, Playful, Gentle, Sensitive",10 - 18,9.5 - 11.5,Companion,15 years,none,,HkuYlxqEQ
+36,36,Black and Tan Coonhound,43,Hound,"Easygoing, Gentle, Adaptable, Trusting, Even Tempered, Lovable",65 - 100,23 - 27,"Hunting raccoons, night hunting",10 - 12 years,none,,HJAFgxcNQ
+37,37,Bloodhound,45,Hound,"Stubborn, Affectionate, Gentle, Even Tempered",80 - 110,23 - 27,Trailing,8 - 10 years,none,,Skdcgx9VX
+38,38,Bluetick Coonhound,47,Hound,"Friendly, Intelligent, Active",45 - 80,21 - 27,Hunting with a superior sense of smell.,12 - 14 years,none,,rJxieg9VQ
+39,39,Boerboel,48,Working,"Obedient, Confident, Intelligent, Dominant, Territorial",110 - 200,22 - 27,"Guarding the homestead, farm work.",10 - 12 years,none,,HyOjge5Vm
+40,40,Border Collie,50,Herding,"Tenacious, Keen, Energetic, Responsive, Alert, Intelligent",30 - 45,18 - 22,Sheep herder,12 - 16 years,none,,sGQvQUpsp
+41,41,Border Terrier,51,Terrier,"Fearless, Affectionate, Alert, Obedient, Intelligent, Even Tempered",11.5 - 15.5,11 - 16,"Fox bolting, ratting",12 - 14 years,none,,HJOpge9Em
+42,42,Boston Terrier,53,Non-Sporting,"Friendly, Lively, Intelligent",10 - 25,16 - 17,"Ratting, Companionship",11 - 13 years,none,,rkZRggqVX
+43,43,Bouvier des Flandres,54,Herding,"Protective, Loyal, Gentle, Intelligent, Familial, Rational",70 - 110,23.5 - 27.5,Cattle herding,10 - 15 years,none,,Byd0xl5VX
+44,44,Boxer,55,Working,"Devoted, Fearless, Friendly, Cheerful, Energetic, Loyal, Playful, Confident, Intelligent, Bright, Brave, Calm",50 - 70,21.5 - 25,"Bull-baiting, guardian",8 - 10 years,none,,ry1kWe5VQ
+45,45,Boykin Spaniel,56,Sporting,"Friendly, Energetic, Companionable, Intelligent, Eager, Trainable",25 - 40,14 - 18,Turkey retrieving,10 - 14 years,none,,ryHJZlcNX
+46,46,Bracco Italiano,57,Sporting,"Stubborn, Affectionate, Loyal, Playful, Companionable, Trainable",55 - 88,21.5 - 26.5,Versatile gun dog,10 - 12 years,none,,S13yZg5VQ
+47,47,Briard,58,Herding,"Fearless, Loyal, Obedient, Intelligent, Faithful, Protective",70 - 90,22 - 27,"Herding, guarding sheep",10 - 12 years,none,,rkVlblcEQ
+48,48,Brittany,59,Sporting,"Agile, Adaptable, Quick, Intelligent, Attentive, Happy",30 - 45,17.5 - 20.5,"Pointing, retrieving",12 - 14 years,none,,HJWZZxc4X
+49,49,Bull Terrier,61,Terrier,"Trainable, Protective, Sweet-Tempered, Keen, Active",50 - 70,21 - 22,"Bull baiting, Fighting",10 - 12 years,none,,VSraIEQGd
+50,50,Bull Terrier (Miniature),62,none,"Trainable, Protective, Sweet-Tempered, Keen, Active, Territorial",25 - 33,10 - 14,An elegant man's fashion statement,11 – 14 years,none,,BkKZWlcVX
+51,51,Bullmastiff,64,Working,"Docile, Reliable, Devoted, Alert, Loyal, Reserved, Loving, Protective, Powerful, Calm, Courageous",100 - 130,24 - 27,Estate guardian,8 - 12 years,none,,r1ifZl5E7
+52,52,Cairn Terrier,65,Terrier,"Hardy, Fearless, Assertive, Gay, Intelligent, Active",13 - 14,9 - 10,"Bolting of otter, foxes, other vermin",14 - 15 years,none,,Sk7Qbg9E7
+53,53,Cane Corso,67,Working,"Trainable, Reserved, Stable, Quiet, Even Tempered, Calm",88 - 120,23.5 - 27.5,"Companion, guard dog, and hunter",10 - 11 years,none,,r15m-lc4m
+54,54,Cardigan Welsh Corgi,68,Herding,"Affectionate, Devoted, Alert, Companionable, Intelligent, Active",25 - 38,10.5 - 12.5,Cattle droving,12 - 14 years,none,,SyXN-e9NX
+55,55,Catahoula Leopard Dog,69,Herding,"Energetic, Inquisitive, Independent, Gentle, Intelligent, Loving",50 - 95,20 - 26,Driving livestock,10 - 12 years,none,,BJcNbec4X
+56,56,Caucasian Shepherd (Ovcharka),70,Working,"Alert, Quick, Dominant, Powerful, Calm, Strong",80 - 100,24 - 33.5,"Guard dogs, defending sheep from predators, mainly wolves, jackals and bears",10 - 12 years,none,,r1rrWe5Em
+57,57,Cavalier King Charles Spaniel,71,Toy,"Fearless, Affectionate, Sociable, Patient, Playful, Adaptable",13 - 18,12 - 13,"Flushing small birds, companion",10 - 14 years,none,,HJRBbe94Q
+58,58,Chesapeake Bay Retriever,76,Sporting,"Affectionate, Intelligent, Quiet, Dominant, Happy, Protective",55 - 80,21 - 26,Water Retriever,10 - 13 years,none,,9BXwUeCc2
+59,59,Chinese Crested,78,Toy,"Affectionate, Sweet-Tempered, Lively, Alert, Playful, Happy",10 - 13,11 - 13,"Ratting, lapdog, curio",10 - 14 years,none,,B1pDZx9Nm
+60,60,Chinese Shar-Pei,79,Non-Sporting,"Suspicious, Affectionate, Devoted, Reserved, Independent, Loving",45 - 60,18 - 20,Fighting,10 years,none,,B1ruWl94Q
+61,61,Chinook,80,Working,"Friendly, Alert, Dignified, Intelligent, Calm",50 - 90,22 - 26,Sled pulling,12 - 15 years,none,,Sypubg54Q
+62,62,Chow Chow,81,Non-Sporting,"Aloof, Loyal, Independent, Quiet",40 - 70,17 - 20,"Guardian, cart pulling, hunting",12 - 15 years,none,,ry8KWgqEQ
+63,63,Clumber Spaniel,84,Sporting,"Affectionate, Loyal, Dignified, Gentle, Calm, Great-hearted",55 - 85,17 - 20,"Bird flushing, retrieving",10 - 12 years,none,,rkeqWgq4Q
+64,64,Cocker Spaniel,86,Sporting,"Trainable, Friendly, Affectionate, Playful, Quiet, Faithful",20 - 30,14 - 15,"Bird flushing, retrieving",12 - 15 years,none,,1lFmrzECl
+65,65,Cocker Spaniel (American),87,Sporting,"Outgoing, Sociable, Trusting, Joyful, Even Tempered, Merry",20 - 30,14 - 15,Hunting the American woodcock,12 - 15 years,none,,HkRcZe547
+66,66,Coton de Tulear,89,Non-Sporting,"Affectionate, Lively, Playful, Intelligent, Trainable, Vocal",9 - 15,9 - 11,"Accompanying ladies on long sea voyages, ratters onboard ship.",13 - 16 years,none,,SyviZlqNm
+67,67,Dalmatian,92,Non-Sporting,"Outgoing, Friendly, Energetic, Playful, Sensitive, Intelligent, Active",50 - 55,19 - 23,Carriage dog - trot alongside carriages to protect the occupants from banditry or other interference,10 - 13 years,none,,SkJ3blcN7
+68,68,Doberman Pinscher,94,Working,"Fearless, Energetic, Alert, Loyal, Obedient, Confident, Intelligent",66 - 88,24 - 28,Guardian,10 years,none,,HyL3bl94Q
+69,69,Dogo Argentino,95,Working,"Friendly, Affectionate, Cheerful, Loyal, Tolerant, Protective",80 - 100,23.5 - 27,Big-game hunting,10 - 12 years,none,,S1nhWx94Q
+70,70,Dutch Shepherd,98,none,"Reliable, Affectionate, Alert, Loyal, Obedient, Trainable",50 - 70,22 - 24.5,"Farms, watchdog, guard duty",15 years,none,,BkE6Wg5E7
+71,71,English Setter,101,Sporting,"Strong Willed, Mischievous, Affectionate, Energetic, Playful, Companionable, Gentle, Hard-working, Intelligent, Eager, People-Oriented",45 - 80,24 - 25,"Bird setting, retrieving",12 years,none,,By4A-eqVX
+72,72,English Shepherd,102,Working,"Kind, Energetic, Independent, Adaptable, Intelligent, Bossy",44 - 66,18 - 23,"Herding & guarding livestock, farm watch dog",10 - 13 years,none,,H1QyMe5EQ
+73,73,English Springer Spaniel,103,Sporting,"Affectionate, Cheerful, Alert, Intelligent, Attentive, Active",35 - 50,19 - 20,"Bird flushing, retrieving",12 - 14 years,none,,Hk0Jfe5VQ
+74,74,English Toy Spaniel,104,Toy,"Affectionate, Reserved, Playful, Gentle, Happy, Loving",8 - 14,10,Companion of kings,10 - 12 years,none,,SkIgzxqNQ
+75,75,English Toy Terrier,105,none,"Stubborn, Alert, Companionable, Intelligent, Cunning, Trainable",6 - 8,10 - 12,Rat-baiting,12 - 13 years,none,,SJ6eMxqEQ
+76,76,Eurasier,107,Non-Sporting,"Alert, Reserved, Intelligent, Even Tempered, Watchful, Calm",40 - 70,20.5 - 23.5,Companionship,12 - 14 years,none,,S1VWGx9Nm
+77,77,Field Spaniel,108,Sporting,"Docile, Cautious, Sociable, Sensitive, Adaptable, Familial",35 - 50,17 - 18,"Bird flushing, retrieving",11 - 15 years,none,,SkJfGecE7
+78,78,Finnish Lapphund,110,Herding,"Friendly, Keen, Faithful, Calm, Courageous",33 - 53,16 - 21,Herding reindeer,12 - 15 years,none,,S1KMGg5Vm
+79,79,Finnish Spitz,111,Non-Sporting,"Playful, Loyal, Independent, Intelligent, Happy, Vocal",23 - 28,15.5 - 20,"Hunting birds, small mammals",12 - 15 years,none,,3PjHlQbkV
+80,80,French Bulldog,113,Non-Sporting,"Playful, Affectionate, Keen, Sociable, Lively, Alert, Easygoing, Patient, Athletic, Bright",28,11 - 12,Lapdog,9 - 11 years,none,,HyWNfxc47
+81,81,German Pinscher,114,Working,"Spirited, Lively, Intelligent, Loving, Even Tempered, Familial",25 - 45,17 - 20,"Watchdog, Hunting vermin on the farm.",12 - 14 years,none,,B1u4zgqE7
+82,82,German Shepherd Dog,115,Herding,"Alert, Loyal, Obedient, Curious, Confident, Intelligent, Watchful, Courageous",50 - 90,22 - 26,"Herding, Guard dog",10 - 13 years,none,,SJyBfg5NX
+83,83,German Shorthaired Pointer,116,Sporting,"Boisterous, Bold, Affectionate, Intelligent, Cooperative, Trainable",45 - 70,21 - 25,General hunting,12 - 14 years,none,,SJqBMg5Nm
+84,84,Giant Schnauzer,119,Working,"Strong Willed, Kind, Loyal, Intelligent, Dominant, Powerful",65 - 90,23.5 - 27.5,"Herding, guarding",10 - 12 years,none,,H1NIzlcV7
+85,85,Glen of Imaal Terrier,120,Terrier,"Spirited, Agile, Loyal, Gentle, Active, Courageous",32 - 40,12.5 - 14,"Rid the home and farm of vermin, and hunt badger and fox",12 - 15 years,none,,H1oLMe94m
+86,86,Golden Retriever,121,Sporting,"Intelligent, Kind, Reliable, Friendly, Trustworthy, Confident",55 - 75,21.5 - 24,Retrieving,10 - 12 years,none,,HJ7Pzg5EQ
+87,87,Gordon Setter,123,Sporting,"Fearless, Alert, Loyal, Confident, Gay, Eager",45 - 80,23 - 27,Find and point gamebirds,10 - 12 years,none,,SJ5vzx5NX
+88,88,Great Dane,124,Working,"Friendly, Devoted, Reserved, Gentle, Confident, Loving",110 - 190,28 - 32,"Hunting & holding boars, Guardian",7 - 10 years,none,,B1Edfl9NX
+89,89,Great Pyrenees,125,Working,"Strong Willed, Fearless, Affectionate, Patient, Gentle, Confident",85 - 115,25 - 32,Sheep guardian,10 - 12 years,none,,B12uzg9V7
+90,90,Greyhound,127,Hound,"Affectionate, Athletic, Gentle, Intelligent, Quiet, Even Tempered",50 - 70,27 - 30,Coursing hares,10 - 13 years,none,,ryNYMx94X
+91,91,Griffon Bruxellois,128,none,"Self-important, Inquisitive, Alert, Companionable, Sensitive, Watchful",12,9 - 11,Hunt and kill vermin in stables,10 – 15 years,none,,ryoYGec4Q
+92,92,Harrier,129,Hound,"Outgoing, Friendly, Cheerful, Sweet-Tempered, Tolerant, Active",40 - 60,18 - 22,Hunting hares by trailing them,12 - 15 years,none,,B1IcfgqE7
+93,93,Havanese,130,Toy,"Affectionate, Responsive, Playful, Companionable, Gentle, Intelligent",7 - 13,8.5 - 11.5,Companionship,14 - 15 years,none,,rkXiGl9V7
+94,94,Irish Setter,134,Sporting,"Affectionate, Energetic, Lively, Independent, Playful, Companionable",35 - 70,24 - 27,"Bird setting, retrieving",10 - 11 years,none,,S1osGeqVm
+95,95,Irish Terrier,135,Terrier,"Respectful, Lively, Intelligent, Dominant, Protective, Trainable",25 - 27,18,none,12 - 16 years,none,,By-hGecVX
+96,96,Irish Wolfhound,137,Hound,"Sweet-Tempered, Loyal, Dignified, Patient, Thoughtful, Generous",105 - 180,30 - 35,"Coursing wolves, elk",6 - 8 years,none,,Hyd2zgcEX
+97,97,Italian Greyhound,138,Toy,"Mischievous, Affectionate, Agile, Athletic, Companionable, Intelligent",7 - 15,13 - 15,Lapdog,12 - 15 years,none,,SJAnzg9NX
+98,98,Japanese Chin,140,Toy,"Alert, Loyal, Independent, Intelligent, Loving, Cat-like",4 - 9,8 - 11,Lapdog,12 - 14 years,none,,r1H6feqEm
+99,99,Japanese Spitz,141,none,"Affectionate, Obedient, Playful, Companionable, Intelligent, Proud",15 - 19,12 - 15,Companion,10 – 16 years,none,,HksaMxqNX
+100,100,Keeshond,142,Non-Sporting,"Agile, Obedient, Playful, Quick, Sturdy, Bright",35 - 45,17 - 18,Barge watchdog,12 - 15 years,none,,S1GAGg9Vm
+101,101,Komondor,144,Working,"Steady, Fearless, Affectionate, Independent, Gentle, Calm",80 - 100,25.5 - 27.5,Sheep guardian,10 - 12 years,none,,Bko0fl547
+102,102,Kooikerhondje,145,Sporting,"Benevolent, Agile, Alert, Intelligent, Active, Territorial",20 - 30,14 - 16,"Luring ducks into traps - ""tolling""",12 - 15 years,none,,kOMy84GQE
+103,103,Kuvasz,147,Working,"Clownish, Loyal, Patient, Independent, Intelligent, Protective",70 - 115,26 - 30,"Guardian, hunting large game",8 - 10 years,none,,BykZ7ecVX
+104,104,Labrador Retriever,149,Sporting,"Kind, Outgoing, Agile, Gentle, Intelligent, Trusting, Even Tempered",55 - 80,21.5 - 24.5,Water retrieving,10 - 13 years,none,,B1uW7l5VX
+105,105,Lagotto Romagnolo,151,Sporting,"Keen, Loyal, Companionable, Loving, Active, Trainable",24 - 35,16 - 19,Water retrieval dog in the marshes of Romagna,14 - 16 years,none,,ryzzmgqE7
+106,106,Lancashire Heeler,153,none,"Clever, Friendly, Alert, Intelligent",6 - 13,10 - 12,"Cattle herding, Ratting, Driving cattle to market.",12 – 15 years,none,,S1RGml5Em
+107,107,Leonberger,155,Working,"Obedient, Fearless, Loyal, Companionable, Adaptable, Loving",120 - 170,25.5 - 31.5,"Guardian, appearance.",6 - 8 years,none,,ByrmQlqVm
+108,108,Lhasa Apso,156,Non-Sporting,"Steady, Fearless, Friendly, Devoted, Assertive, Spirited, Energetic, Lively, Alert, Obedient, Playful, Intelligent",12 - 18,10 - 11,"Guarding inside the home, companion",12 - 15 years,none,,SJp7Qe5EX
+109,109,Maltese,161,Toy,"Playful, Docile, Fearless, Affectionate, Sweet-Tempered, Lively, Responsive, Easygoing, Gentle, Intelligent, Active",4 - 7,8 - 10,Lapdog,15 - 18 years,none,,B1SV7gqN7
+110,110,Miniature American Shepherd,165,Herding,"Energetic, Loyal, Intelligent, Trainable",20 - 40,13 - 18,none,12 - 15 years,none,,BkHHQgcN7
+111,111,Miniature Pinscher,167,Toy,"Clever, Outgoing, Friendly, Energetic, Responsive, Playful",8 - 11,10 - 12.5,Small vermin hunting,15 years,none,,Hy3H7g94X
+112,112,Miniature Schnauzer,168,Terrier,"Fearless, Friendly, Spirited, Alert, Obedient, Intelligent",11 - 20,12 - 14,Ratting,12 - 14 years,none,,SJIUQl9NX
+113,113,Newfoundland,171,Working,"Sweet-Tempered, Gentle, Trainable",100 - 150,26 - 28,"All purpose water dog, fishing aid",8 - 10 years,none,,Sk4DXl54m
+114,114,Norfolk Terrier,172,Terrier,"Self-confidence, Fearless, Spirited, Companionable, Happy, Lovable",11 - 12,9 - 10,"Ratting, fox bolting",12 - 15 years,none,,B1ADQg94X
+115,115,Norwich Terrier,176,Terrier,"Hardy, Affectionate, Energetic, Sensitive, Intelligent",11 - 12,10,"Ratting, fox bolting",12 - 15 years,none,,BkgKXlqE7
+116,116,Nova Scotia Duck Tolling Retriever,177,Sporting,"Outgoing, Alert, Patient, Intelligent, Loving",35 - 50,17 - 21,none,12 - 14 years,none,,SyYtQe5V7
+117,117,Old English Sheepdog,178,Herding,"Sociable, Bubbly, Playful, Adaptable, Intelligent, Loving",60 - 100,21,"Driving sheep, cattle",10 - 12 years,none,,HkZ57lq4m
+118,118,Olde English Bulldogge,179,none,"Friendly, Alert, Confident, Loving, Courageous, Strong",65 – 85,15 - 19,none,9 – 14 years,none,,B1d5me547
+119,119,Papillon,181,Toy,"Hardy, Friendly, Energetic, Alert, Intelligent, Happy",3 - 12,8 - 11,Lapdog,13 - 17 years,none,,SkJj7e547
+120,120,Pekingese,183,Toy,"Opinionated, Good-natured, Stubborn, Affectionate, Aggressive, Intelligent",14,6 - 9,Lapdog,14 - 18 years,none,,ByIiml9Nm
+121,121,Pembroke Welsh Corgi,184,Herding,"Tenacious, Outgoing, Friendly, Bold, Playful, Protective",25 - 30,10 - 12,Driving stock to market in northern Wales,12 - 14 years,none,,rJ6iQeqEm
+122,122,Perro de Presa Canario,185,Working,"Strong Willed, Suspicious, Gentle, Dominant, Calm",88 - 110,22 - 25.5,none,10 - 12 years,none,,S1V3Qeq4X
+123,123,Pharaoh Hound,188,Hound,"Affectionate, Sociable, Playful, Intelligent, Active, Trainable",40 - 60,21 - 25,Hunting rabbits,12 - 14 years,none,,Byz6mgqEQ
+124,124,Plott,189,Hound,"Bold, Alert, Loyal, Intelligent",40 - 60,20 - 25,Hunting big-game like Boar.,12 - 14 years,none,,B1i67l5VQ
+125,125,Pomeranian,193,Toy,"Extroverted, Friendly, Sociable, Playful, Intelligent, Active",3 - 7,8 - 12,Companion,15 years,none,,HJd0XecNX
+126,126,Poodle (Miniature),196,none,none,15 - 17,11 - 15,none,12 – 15 years,none,,Hkxk4ecVX
+127,127,Poodle (Toy),197,none,none,6 - 9,9 - 11,none,18 years,none,,rJFJVxc4m
+128,128,Pug,201,Toy,"Docile, Clever, Charming, Stubborn, Sociable, Playful, Quiet, Attentive",14 - 18,10 - 12,Lapdog,12 - 14 years,none,,HyJvcl9N7
+129,129,Puli,204,Herding,"Energetic, Agile, Loyal, Obedient, Intelligent, Faithful",25 - 35,16 - 17,Herding,12 - 16 Years years,none,,ryPgVl5N7
+130,130,Pumi,205,Herding,"Lively, Reserved, Intelligent, Active, Protective, Vocal",18 - 33,15 - 18.5,none,13 - 15 years,none,,SyRe4xcN7
+131,131,Rat Terrier,207,Terrier,"Affectionate, Lively, Inquisitive, Alert, Intelligent, Loving",8 - 25,10 - 13,none,12 - 18 years,none,,HkXWNl9E7
+132,132,Redbone Coonhound,208,Hound,"Affectionate, Energetic, Independent, Companionable, Familial, Unflappable",45 - 80,21 - 27,"Hunting raccoon, deer, bear, and cougar.",10 - 12 years,none,,HJMzEl5N7
+133,133,Rhodesian Ridgeback,209,Hound,"Strong Willed, Mischievous, Loyal, Dignified, Sensitive, Intelligent",75 - 80,24 - 27,"Big game hunting, guarding",10 - 12 years,none,,By9zNgqE7
+134,134,Rottweiler,210,Working,"Steady, Good-natured, Fearless, Devoted, Alert, Obedient, Confident, Self-assured, Calm, Courageous",75 - 110,22 - 27,"Cattle drover, guardian, draft",8 - 10 years,none,,r1xXEgcNX
+135,135,Russian Toy,211,Toy,none,3 - 6,7.5 - 10.5,none,10 - 12 years,none,,HkP7Vxc4Q
+136,136,Saint Bernard,212,Working,"Friendly, Lively, Gentle, Watchful, Calm",130 - 180,25.5 - 27.5,"Draft, search, rescue",7 - 10 years,none,,_Qf9nfRzL
+137,137,Saluki,213,Hound,"Aloof, Reserved, Intelligent, Quiet",35 - 65,23 - 28,Coursing gazelle and hare,12 - 14 years,none,,fjFIuehNo
+138,138,Samoyed,214,Working,"Stubborn, Friendly, Sociable, Lively, Alert, Playful",50 - 60,19 - 23.5,"Herding reindeer, guardian, draft",12 - 14 years,none,,S1T8Ee9Nm
+139,139,Schipperke,216,Non-Sporting,"Fearless, Agile, Curious, Independent, Confident, Faithful",10 - 16,10 - 13,Barge watchdog,13 - 15 years,none,,SyBvVgc47
+140,140,Scottish Deerhound,218,Hound,"Docile, Friendly, Dignified, Gentle",70 - 130,28 - 32,Coursing deer,8 - 10 years,none,,SkNjqx9NQ
+141,141,Scottish Terrier,219,Terrier,"Feisty, Alert, Independent, Playful, Quick, Self-assured",18 - 22,10,Vermin hunting,11 - 13 years,none,,Bklnce5NX
+142,142,Shetland Sheepdog,221,Herding,"Affectionate, Lively, Responsive, Alert, Loyal, Reserved, Playful, Gentle, Intelligent, Active, Trainable, Strong",30,13 - 16,Sheep herding,12 - 14 years,none,,rJa29l9E7
+143,143,Shiba Inu,222,Non-Sporting,"Charming, Fearless, Keen, Alert, Confident, Faithful",17 - 23,13.5 - 16.5,"Hunting in the mountains of Japan, Alert Watchdog",12 - 16 years,none,,Zn3IjPX3f
+144,144,Shih Tzu,223,Toy,"Clever, Spunky, Outgoing, Friendly, Affectionate, Lively, Alert, Loyal, Independent, Playful, Gentle, Intelligent, Happy, Active, Courageous",9 - 16,8 - 11,Lapdog,10 - 18 years,none,,BkrJjgcV7
+145,145,Shiloh Shepherd,225,none,"Outgoing, Loyal, Companionable, Gentle, Loving, Trainable",120 - 140,26 - 30,"Swimming, Carrying backpacks, Pulling carts or sleds",9 – 14 years,none,,SJJxjecEX
+146,146,Siberian Husky,226,Working,"Outgoing, Friendly, Alert, Gentle, Intelligent",35 - 60,20 - 23.5,Sled pulling,12 years,none,,S17ZilqNm
+147,147,Silky Terrier,228,Toy,"Friendly, Responsive, Inquisitive, Alert, Quick, Joyful",8 - 10,9 - 10,"Small vermin hunting, companionship",12 - 15 years,none,,ByzGsl5Nm
+148,148,Smooth Fox Terrier,232,Terrier,"Fearless, Affectionate, Alert, Playful, Intelligent, Active",up - 18,15.5,Fox bolting,12 - 14 years,none,,Syszjx9Em
+149,149,Soft Coated Wheaten Terrier,233,Terrier,"Affectionate, Spirited, Energetic, Playful, Intelligent, Faithful",30 - 40,16 - 18,"Vermin hunting, guarding, all-around farm helper",12 - 15 years,none,,HJHmix5NQ
+150,150,Spanish Water Dog,235,Sporting,"Trainable, Diligent, Affectionate, Loyal, Athletic, Intelligent",30 - 50,16 - 20,Herding flocks of sheep and goats from one pasture to another,12 - 15 years,none,,HJf4jl9VX
+151,151,Spinone Italiano,236,Sporting,"Docile, Friendly, Affectionate, Loyal, Patient, Gentle",61 - 85,22.5 - 27.5,none,10 - 12 years,none,,rk5Eoe5Nm
+152,152,Staffordshire Bull Terrier,238,Terrier,"Reliable, Fearless, Bold, Affectionate, Loyal, Intelligent, Courageous",24 - 38,14 - 16,,12 - 14 years,none,,H1zSie9V7
+153,153,Standard Schnauzer,239,Working,"Trainable, Good-natured, Devoted, Lively, Playful, Intelligent",30 - 50,17.5 - 19.5,"Ratting, guarding",13 - 15 years,none,,tmzeu6ID_
+154,154,Swedish Vallhund,242,Herding,"Fearless, Friendly, Energetic, Alert, Intelligent, Watchful",20 - 30,11.5 - 13.5,none,12 - 14 years,none,,HJ-Dix94Q
+155,155,Thai Ridgeback,243,Hound,"Protective, Loyal, Independent, Intelligent, Loving, Familial",35 - 55,20 - 24,none,10 - 12 years,none,,zv89hR-O8
+156,156,Tibetan Mastiff,244,Working,"Strong Willed, Tenacious, Aloof, Stubborn, Intelligent, Protective",85 - 140,24 - 26,none,10 - 14 years,none,,SkM9sec47
+157,157,Tibetan Spaniel,245,Non-Sporting,"Willful, Aloof, Assertive, Independent, Playful, Intelligent, Happy",9 - 15,10,none,12 - 15 years,none,,Hyjcol947
+158,158,Tibetan Terrier,246,Non-Sporting,"Affectionate, Energetic, Amiable, Reserved, Gentle, Sensitive",20 - 24,14 - 17,"Good luck charms, mascots, watchdogs, herding dogs, and companions",12 - 15 years,none,,6f5n_42mB
+159,159,Toy Fox Terrier,248,Toy,"Friendly, Spirited, Alert, Loyal, Playful, Intelligent",4 - 9,8 - 11,none,12 - 15 years,none,,B17ase9V7
+160,160,Treeing Walker Coonhound,250,Hound,"Clever, Affectionate, Confident, Intelligent, Loving, Trainable",45 - 80,20 - 27,none,10 - 13 years,none,,SkRpsgc47
+161,161,Vizsla,251,Sporting,"Affectionate, Energetic, Loyal, Gentle, Quiet",50 - 65,21 - 24,Pointing and trailing,10 - 14 years,none,,r1o0jx9Em
+162,162,Weimaraner,253,Sporting,"Steady, Aloof, Stubborn, Energetic, Alert, Intelligent, Powerful, Fast",55 - 90,23 - 27,Large game trailing and versatile gundog,12 - 15 years,none,,SyU12l9V7
+163,163,Welsh Springer Spaniel,254,Sporting,"Stubborn, Friendly, Affectionate, Loyal, Playful, Active",35 - 55,17 - 19,Flushing and retrieving birds,12 - 15 years,none,,BJ1gnx5Vm
+164,164,West Highland White Terrier,256,Terrier,"Hardy, Friendly, Alert, Independent, Gay, Active, Courageous",15 - 22,10 - 11,"Fox, badger, vermin hunting",15 - 20 years,none,,Bkdx2g5Em
+165,165,Whippet,257,Hound,"Friendly, Affectionate, Lively, Gentle, Intelligent, Quiet",25 - 35,18 - 22,"Coursing, racing",12 - 15 years,none,,Hyv-ne94m
+166,166,White Shepherd,258,none,"Self-confidence, Aloof, Fearless, Alert, Companionable, Eager",60 - 85,22 - 25,none,12 – 14 years,none,,r14M3e9E7
+167,167,Wire Fox Terrier,259,none,"Fearless, Friendly, Bold, Keen, Alert, Quick",15 - 19,13 - 16,"Vermin hunting, fox bolting",13 – 14 years,none,,SJ6f2g9EQ
+168,168,Wirehaired Pointing Griffon,260,Sporting,"Loyal, Gentle, Vigilant, Trainable, Proud",45 - 70,20 - 24,"Gundog, ""swamp-tromping"", Flushing, pointing, and retrieving water fowl & game birds",12 - 14 years,none,,Bkam2l9Vm
+169,169,Wirehaired Vizsla,261,Sporting,none,45 - 65,21.5 - 25,none,12 - 14 years,none,,r1I4hl5Em
+170,170,Xoloitzcuintli,262,Non-Sporting,"Cheerful, Alert, Companionable, Intelligent, Protective, Calm",9 - 31,10 - 23,none,12 - 14 years,none,,HkNS3gqEm
+171,171,Yorkshire Terrier,264,Toy,"Bold, Independent, Confident, Intelligent, Courageous",4 - 7,8 - 9,Small vermin hunting,12 - 16 years,none,,B12BnxcVQ
