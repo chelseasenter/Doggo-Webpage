@@ -1,17 +1,18 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
+-- Removed the Not Null from the breed
 
 
 CREATE TABLE "breed" (
     "breed_id" int   NOT NULL,
     "breed_name" varchar(250)   NOT NULL,
-    "min_height" int   NOT NULL,
-    "max_height" int   NOT NULL,
-    "min_weight" int   NOT NULL,
-    "max_weight" int   NOT NULL,
-    "min_life" int   NOT NULL,
-    "max_life" int   NOT NULL,
-    "group" int   NOT NULL,
+    "min_height" int,
+    "max_height" int,
+    "min_weight" int,
+    "max_weight" int,
+    "min_life" int,
+    "max_life" int,
+    "group" int,
     CONSTRAINT "pk_breed" PRIMARY KEY (
         "breed_id"
      )
