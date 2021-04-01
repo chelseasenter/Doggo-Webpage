@@ -2,6 +2,7 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 -- Removed the Not Null from the breed
 
+select * from breed;
 
 CREATE TABLE "breed" (
     "breed_id" int   NOT NULL,
