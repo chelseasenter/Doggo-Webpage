@@ -1,0 +1,38 @@
+breed
+----
+breed_id PK int
+breed_name varchar(250)
+min_height int
+max_height int
+min_weight int
+max_weight int
+min_life int
+max_life int
+group int fk >- group.group_id
+
+group
+----
+group_id PK int
+group_name varchar(250)
+
+temperament
+----
+temperament_id PK int 
+temperament_name varchar(250)
+
+purpose
+----
+purpose_id PK int 
+purpose varchar(250)
+
+breed_temperament
+----
+breed int FK >- breed.breed_id
+temperament int FK >- temperament.temperament_id
+
+
+breed_purpose
+----
+breed int FK >- breed.breed_id
+purpose int FK >- purpose.purpose_id
+
