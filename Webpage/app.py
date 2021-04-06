@@ -12,16 +12,20 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 temper = Base.classes.temperament
 
+
 @app.route("/")
 def welcome():
     session = Session(engine)
+    all_temps = []
+    results = session.query(temper.temperament_id, temper.temperament_name).all()
+    temper_name = session.query(temper.temperament_name).all()
+    for id, name in results:
+        temps = {}
+        temps["name"] = name
+        temps["id"] = id
+        all_temps.append(temps)
 
-    results = session.query(temper.temperament_name).all()
-    print(results)
-    return (
-        jsonify(results)
-    )
-
+    return jsonify(temper_name)
 
 if __name__ == "__main__":
     app.run(debug=True)
