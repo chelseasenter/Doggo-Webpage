@@ -27,12 +27,12 @@ purpose varchar(250)
 
 breed_temperament
 ----
-breed int FK >- breed.breed_id
-temperament int FK >- temperament.temperament_id
+breed_id int FK >- breed.breed_id
+temperament_id int FK >- temperament.temperament_id
 
 
 breed_purpose
 ----
-breed int FK >- breed.breed_id
-purpose int FK >- purpose.purpose_id
+breed_id int FK >- breed.breed_id
+purpose_id int FK >- purpose.purpose_id
 

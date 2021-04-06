@@ -3,4 +3,4 @@ drop table temperament;
 drop table breed_purpose;
 drop table purpose;
 drop table breed;
-drop table "group";
+drop table groups;
