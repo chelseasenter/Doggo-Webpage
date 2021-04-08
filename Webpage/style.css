@@ -23,7 +23,13 @@ h4 {
 
 p {
     padding: 10px;
-    text-align: center;
+    text-align:center;
+}
+
+#mainP {
+    padding-left: 400px;
+    text-align:center;
+    width:1000px;
 }
 
 .covered {
@@ -44,5 +50,26 @@ p {
 
 section {
     width:absolute;
-    height:1500px;
+    height:1200px;
+}
+
+#mainPageSection {
+    width:absolute;
+    height:700px;
+}
+
+#options {
+    width: 40%;
+    float:left;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+#puppyChoice {
+    width:60%;
+    float:right;
+}
+
+#dogChoiceCard {
+    margin:0 auto;
 }
