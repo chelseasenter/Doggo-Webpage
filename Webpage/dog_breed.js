@@ -14,6 +14,7 @@ var submitButton = d3.select("#submitButton");
 
 function updateSelection(){
     var menu = d3.select("#dropdownMenuButton1").node();
+    var chosen = menu.value;
 }
 
 submitButton.on("change", updateSelection);
