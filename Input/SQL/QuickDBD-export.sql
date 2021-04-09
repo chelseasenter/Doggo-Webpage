@@ -1,6 +1,7 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 -- Removed the Not Null from the breed
+-- Removed breed_purpose and purpose tables
 
 
 CREATE TABLE "breed" (
@@ -34,22 +35,10 @@ CREATE TABLE "temperament" (
      )
 );
 
-CREATE TABLE "purpose" (
-    "purpose_id" int   NOT NULL,
-    "purpose" varchar(250)   NOT NULL,
-    CONSTRAINT "pk_purpose" PRIMARY KEY (
-        "purpose_id"
-     )
-);
 
 CREATE TABLE "breed_temperament" (
     "breed_id" int   NOT NULL,
     "temperament_id" int   NOT NULL
-);
-
-CREATE TABLE "breed_purpose" (
-    "breed" int   NOT NULL,
-    "purpose" int   NOT NULL
 );
 
 ALTER TABLE "breed" ADD CONSTRAINT "fk_breed_group" FOREIGN KEY("group")
@@ -60,10 +49,4 @@ REFERENCES "breed" ("breed_id");
 
 ALTER TABLE "breed_temperament" ADD CONSTRAINT "fk_breed_temperament_temperament" FOREIGN KEY("temperament_id")
 REFERENCES "temperament" ("temperament_id");
-
-ALTER TABLE "breed_purpose" ADD CONSTRAINT "fk_breed_purpose_breed" FOREIGN KEY("breed")
-REFERENCES "breed" ("breed_id");
-
-ALTER TABLE "breed_purpose" ADD CONSTRAINT "fk_breed_purpose_purpose" FOREIGN KEY("purpose")
-REFERENCES "purpose" ("purpose_id");
 
