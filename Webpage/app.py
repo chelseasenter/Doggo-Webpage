@@ -72,6 +72,25 @@ def perfectpup(temp1, temp2, temp3):
 
     return jsonify(breed_results)
 
+drop_down_dog_breed = 'Alaskan Malamute'
+
+@app.route('/dog_breed_info')
+
+def dog_breed_info():
+    conn = psycopg2.connect(
+        host="localhost",
+        database="Project_2",
+        user="postgres",
+        password="postgres")
+
+    cur = conn.cursor()
+    cur.execute(
+        "SELECT * FROM breed"
+        f"    WHERE breed.breed_name = '{drop_down_dog_breed}'"
+    )
+    dog_breed_selected = cur.fetchall()
+    return jsonify(dog_breed_selected)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
