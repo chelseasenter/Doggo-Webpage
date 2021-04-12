@@ -4,6 +4,10 @@ from flask import Flask, jsonify
 from sqlalchemy.ext.automap import automap_base
 import psycopg2
 
+from flask_cors import CORS, cross_origin
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 app = Flask(__name__)
 
 rds_connection_string = "postgres:postgres@localhost:5432/Project_2"
@@ -72,8 +76,6 @@ def perfectpup(temp1, temp2, temp3):
 
     return jsonify(breed_results)
 
-drop_down_dog_breed = 'Alaskan Malamute'
-
 @app.route('/dog_breed_info')
 
 def dog_breed_info():
@@ -83,6 +85,8 @@ def dog_breed_info():
         user="postgres",
         password="postgres")
 
+    drop_down_dog_breed = 'Alaskan Malamute'
+    
     cur = conn.cursor()
     cur.execute(
         "SELECT * FROM breed"
@@ -90,7 +94,7 @@ def dog_breed_info():
     )
     dog_breed_selected = cur.fetchall()
     return jsonify(dog_breed_selected)
-
+ 
 
 if __name__ == "__main__":
     app.run(debug=True)
