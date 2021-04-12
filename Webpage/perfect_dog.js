@@ -1,8 +1,11 @@
 
+// Default things
+//////////////////
 var chosen_temps = [];
 var permission = false;
 document.getElementById("submitButton").disabled = true; // disable submission button until have 3 choices
-// var submitButton = d3.select("#submitButton");
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // Have the default picture change to a different puppy every time the page is loaded/reloaded
@@ -16,8 +19,6 @@ function getNewPic(){
     // console.log(d3.select("#dogChoiceCard>img"));
 }
 getNewPic();
-
-
 
 
 
@@ -40,8 +41,6 @@ reset.on("click",resetBoxes); // attach on to reset button
 
 
 
-
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // Adding action to submit choices and find dog
 /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -49,12 +48,12 @@ reset.on("click",resetBoxes); // attach on to reset button
 // Defining functions 
 /////////////////////////////
 
+// Submission button event 
 // helpful webpage for promises https://stackoverflow.com/questions/60326469/why-is-function-returning-undefined-when-calling-fetch-axios-ajax-or-a-promis
 function getSQLresults(tmp1,tmp2,tmp3){
     const url = `http://127.0.0.1:5000/perfectpupper/${tmp1}/${tmp2}/${tmp3}`;
     return fetch(url).then(response => response.json());
 }
-
 
 function submitChoices(){
     console.log("Submission button has been clicked");
@@ -63,14 +62,40 @@ function submitChoices(){
     var temp3 = chosen_temps[2];
     console.log(`Choices submitted are: ${temp1}, ${temp2}, and ${temp3}.`);
     d3.select("#puppyChoice>h3").text("Let me tell you about your best friend...");
-    d3.select("#dogChoiceCard>img").attr("src","{{ img }}");
-    d3.select("#defaultPupChoice").text("{{ message }}")
+    // d3.select("#dogChoiceCard>img").attr("src","{{ img }}");
+    // d3.select("#defaultPupChoice").text("{{ message }}")
 
     // Calling results from SQL
-    getSQLresults(temp1,temp2,temp3).then(response => console.log(response));
+    getSQLresults(temp1,temp2,temp3).then(response => {
+        console.log(response);
+        if(response.length === 0){
+            var message = "Hmmm, we couldnt find you one... You might be too picky. Choose another set of temperaments and try again.";
+            var img = "Pictures/hmmm_emoji.png";
+        } else if(response.length === 1) {
+            var message = `Meet your perfect pup, the ${response[0].name}!\n
+                        This pup comes from the ${response[0].gname} group of dogs.\n
+                        At most, it will grow to be ${response[0].maxw}lbs, and ${response[0].maxh} inches tall.\n\n
+                        Not quite happy with your result? Hit reset, and make different selections. Let's see if we can find your perfect pup.`
+            var img = `https://cdn2.thedogapi.com/images/${response[0].img}.jpg`
+        } else {
+            var n_res = Math.floor(Math.random() * response.length);
+            var message = `Meet your perfect pup, the ${response[n_res].name}!\n
+                        This pup comes from the ${response[n_res].gname} group of dogs.\n
+                        At most, it will grow to be ${response[n_res].maxw}lbs, and ${response[n_res].maxh} inches tall.\n\n
+                        Not quite happy with your result? Hit the submit button again, and let's see if we can find your perfect pup.`
+            var img = `https://cdn2.thedogapi.com/images/${response[n_res].img}.jpg`
+        }
+    });
+
+    // Change card image
+    d3.select("#dogChoiceCard>img").attr("src",img);
+
+    // Change message
+    d3.select("#defaultPupChoice").text(message);
+
 }
 
-
+// Change submit button based on whether enough or too few/many selections
 function checkArray(arrayLength){
     if(arrayLength === 3){
         document.getElementById("submitButton").innerHTML = "Here puppy, puppy, puppy...";
@@ -84,19 +109,21 @@ function checkArray(arrayLength){
     }
 }
 
+// check if enough or too many selections
 function checkIt(tmp) {
         chosen_temps.push(tmp);
-        // console.log(`${tmp} was clicked and added to chosen temps array`);
+        console.log(`${tmp} was clicked and added to chosen temps array`);
         checkArray(chosen_temps.length);
 }
 
-function changeHandler(checkbox){
+// Even listener for checkboxes
+function changeHandler(checkbox){ 
     var tmp = checkbox.id;
     if(checkbox.checked){
         checkIt(tmp);
     } else {
         _.pull(chosen_temps,tmp); // removing element from array with Lodash
-        // console.log(`${tmp} was clicked and removed from chosen temps array`);
+        console.log(`${tmp} was clicked and removed from chosen temps array`);
         checkArray(chosen_temps.length);
     }
 }
