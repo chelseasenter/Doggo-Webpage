@@ -31,9 +31,10 @@ var reset = d3.select("#resetButton");
 function resetBoxes(){
     console.log("Reset button has been clicked");
     d3.selectAll('input').property('checked', false); // uncheck any checked boxes
-    getNewPic();
-    var chosen_temps = [];
-    d3.select("#defaultPupChoice").text("Go ahead and check 3 boxes for what you want in a dog. The right dog for you will show up here.")
+    // getNewPic();
+    location.reload();
+    // var chosen_temps = [];
+    // d3.select("#defaultPupChoice").text("Go ahead and check 3 boxes for what you want in a dog. The right dog for you will show up here.")
 }
 
 reset.on("click",resetBoxes); // attach on to reset button
@@ -66,7 +67,7 @@ function submitChoices(){
     // d3.select("#defaultPupChoice").text("{{ message }}")
 
     // Calling results from SQL
-    getSQLresults(temp1,temp2,temp3).then(response => {
+    res_array = getSQLresults(temp1,temp2,temp3).then(response => {
         console.log(response);
         if(response.length === 0){
             var message = "Hmmm, we couldnt find you one... You might be too picky. Choose another set of temperaments and try again.";
@@ -78,20 +79,24 @@ function submitChoices(){
                         Not quite happy with your result? Hit reset, and make different selections. Let's see if we can find your perfect pup.`
             var img = `https://cdn2.thedogapi.com/images/${response[0].img}.jpg`
         } else {
+            // console.log("length is ", response.length);
             var n_res = Math.floor(Math.random() * response.length);
             var message = `Meet your perfect pup, the ${response[n_res].name}!\n
                         This pup comes from the ${response[n_res].gname} group of dogs.\n
                         At most, it will grow to be ${response[n_res].maxw}lbs, and ${response[n_res].maxh} inches tall.\n\n
                         Not quite happy with your result? Hit the submit button again, and let's see if we can find your perfect pup.`
+            // console.log(message);
             var img = `https://cdn2.thedogapi.com/images/${response[n_res].img}.jpg`
         }
+        // console.log(message);
+        return [message, img];
     });
-
+    console.log(res_array);
     // Change card image
-    d3.select("#dogChoiceCard>img").attr("src",img);
+    d3.select("#dogChoiceCard>img").attr("src",res_array[1]);
 
     // Change message
-    d3.select("#defaultPupChoice").text(message);
+    d3.select("#defaultPupChoice").text(res_array[0]);
 
 }
 
