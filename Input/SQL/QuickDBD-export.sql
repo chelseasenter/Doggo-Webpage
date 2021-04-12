@@ -2,19 +2,19 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 -- Removed the Not Null from the breed
 -- Removed breed_purpose and purpose tables
--- Created 'dog_info' table for dog_info page
+-- Created 'dog_info' table for dog_info page - fixed because the new sql showed errors
 
 CREATE TABLE "dog_info" (
-	"Breed_id" varchar(),
-	"Dog Breed"	 varchar(),
-	"Breed Group"  varchar(),
-	"Temperament"  varchar(),
-	"Weight"  varchar(),
-	"Height"  varchar(),
-	"Bred For"  varchar(),
-	"Life Span"	 varchar(),
-	"Origin"  varchar(),
-	"Country Code"  varchar()
+	"Breed_id" varchar,
+	"Dog Breed"	 varchar,
+	"Breed Group"  varchar,
+	"Temperament"  varchar,
+	"Weight"  varchar,
+	"Height"  varchar,
+	"Bred For"  varchar,
+	"Life Span"	 varchar,
+	"Origin"  varchar,
+	"Country Code"  varchar
 );
 
 CREATE TABLE "breed" (
@@ -24,8 +24,8 @@ CREATE TABLE "breed" (
     "max_height" int,
     "min_weight" int,
     "max_weight" int,
-    "min_life" int,
-    "max_life" int,
+    "min_lifespan" int,
+    "max_lifespan" int,
     "group" int,
     CONSTRAINT "pk_breed" PRIMARY KEY (
         "breed_id"
