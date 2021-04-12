@@ -68,30 +68,31 @@ function submitChoices(){
 
     // Calling results from SQL
     res_array = getSQLresults(temp1,temp2,temp3).then(response => {
-        console.log(response);
+        // console.log(response);
         if(response.length === 0){
-            var message = "Hmmm, we couldnt find you one... You might be too picky. Choose another set of temperaments and try again.";
-            var img = "Pictures/hmmm_emoji.png";
+            d3.select("#defaultPupChoice").text( "Hmmm, we couldnt find you one... You might be too picky. Choose another set of temperaments and try again.");
+            d3.select("#dogChoiceCard>img").attr("src","Pictures/hmmm_emoji.png");
         } else if(response.length === 1) {
-            var message = `Meet your perfect pup, the ${response[0].name}!\n
+            d3.select("#defaultPupChoice").text(`Meet your perfect pup, the ${response[0].name}!\n
                         This pup comes from the ${response[0].gname} group of dogs.\n
                         At most, it will grow to be ${response[0].maxw}lbs, and ${response[0].maxh} inches tall.\n\n
-                        Not quite happy with your result? Hit reset, and make different selections. Let's see if we can find your perfect pup.`
-            var img = `https://cdn2.thedogapi.com/images/${response[0].img}.jpg`
+                        Not quite happy with your result? Hit reset, and make different selections. Let's see if we can find your perfect pup.`);
+            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[0].img}.jpg`);
         } else {
             // console.log("length is ", response.length);
             var n_res = Math.floor(Math.random() * response.length);
-            var message = `Meet your perfect pup, the ${response[n_res].name}!\n
+            d3.select("#defaultPupChoice").text(`Meet your perfect pup, the ${response[n_res].name}!\n
                         This pup comes from the ${response[n_res].gname} group of dogs.\n
                         At most, it will grow to be ${response[n_res].maxw}lbs, and ${response[n_res].maxh} inches tall.\n\n
-                        Not quite happy with your result? Hit the submit button again, and let's see if we can find your perfect pup.`
+                        Not quite happy with your result? Hit the submit button again, and let's see if we can find your perfect pup.`)
             // console.log(message);
-            var img = `https://cdn2.thedogapi.com/images/${response[n_res].img}.jpg`
+            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[n_res].img}.jpg`);
         }
-        // console.log(message);
-        return [message, img];
+        console.log(message);
+        // return [message, img];
     });
-    console.log(res_array);
+
+    console.log(res_array[0]);
     // Change card image
     d3.select("#dogChoiceCard>img").attr("src",res_array[1]);
 
