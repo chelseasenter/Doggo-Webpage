@@ -5,9 +5,6 @@ from flask_cors import CORS, cross_origin
 from sqlalchemy.ext.automap import automap_base
 import psycopg2
 
-from flask_cors import CORS, cross_origin
-cors = CORS(app)
-app.config['CORS_HEADERS'] = 'Content-Type'
 
 app = Flask(__name__)
 cors = CORS(app)
