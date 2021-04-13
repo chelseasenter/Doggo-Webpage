@@ -77,27 +77,18 @@ function submitChoices(){
                         This pup comes from the ${response[0].gname} group of dogs.\n
                         At most, it will grow to be ${response[0].maxw}lbs, and ${response[0].maxh} inches tall.\n\n
                         Not quite happy with your result? Hit reset, and make different selections. Let's see if we can find your perfect pup.`);
-            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[0].img}.jpg`);
+            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[0].image}.jpg`);
         } else {
-            // console.log("length is ", response.length);
             var n_res = Math.floor(Math.random() * response.length);
             d3.select("#defaultPupChoice").text(`Meet your perfect pup, the ${response[n_res].name}!\n
                         This pup comes from the ${response[n_res].gname} group of dogs.\n
                         At most, it will grow to be ${response[n_res].maxw}lbs, and ${response[n_res].maxh} inches tall.\n\n
                         Not quite happy with your result? Hit the submit button again, and let's see if we can find your perfect pup.`)
-            // console.log(message);
-            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[n_res].img}.jpg`);
+            console.log(`https://cdn2.thedogapi.com/images/${response[n_res].image}.jpg... pic is ${response[n_res].image}`);
+            d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[n_res].image}.jpg`);
         }
-        console.log(message);
-        // return [message, img];
     });
 
-    console.log(res_array[0]);
-    // Change card image
-    d3.select("#dogChoiceCard>img").attr("src",res_array[1]);
-
-    // Change message
-    d3.select("#defaultPupChoice").text(res_array[0]);
 
 }
 
