@@ -53,24 +53,23 @@ def perfectpup(temp1, temp2, temp3):
 
     cur = conn.cursor()
     cur.execute(
-        "select breed_name, min_height, max_height, min_weight, max_weight, min_life, max_life, group_name "
-        "from breed b "
+        "select breed_name, max_height, max_weight, group_name,\"Reference Image ID\" "
+        "from dog_breed dog "
+	"inner join breed b on dog.\"Breed_id\" = b.breed_id "
         "inner join breed_temperament bt on b.breed_id = bt.breed_id "
         "inner join temperament t on t.temperament_id = bt.temperament_id "
         "inner join groups g on b.group = g.group_id "
-        f"where temperament_name in ('{temp1}', '{temp2}','{temp3}')")
+        f"where temperament_name in ('{temp1}', '{temp2}','{temp3}') "
+	"and max_weight is not NULL and max_height is not null")
     query_results = cur.fetchall()
     breed_results = []
-    for name, minh, maxh, minw, maxw, minl, maxl, gname in query_results:
+    for name, maxh, maxw, gname, image in query_results:
         temps = {}
         temps["name"] = name
-        temps["minh"] = minh
         temps["maxh"] = maxh
-        temps["minw"] = minw
         temps["maxw"] = maxw
-        temps["min1"] = minl
-        temps["maxl"] = maxl
         temps["gname"] = gname
+        temps["image"] = image
         breed_results.append(temps)
 
     return jsonify(breed_results)
