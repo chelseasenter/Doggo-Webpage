@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
   
     <title>Perfect Pupper!</title>
@@ -29,195 +29,196 @@
     <!-- main section under navbar -->
     <main role="main" class="justify-content-center">
         <section class="jumbotron justify-content-center covered">
-            <div class="covered-img"></div>
+            <div class="covered-img" id="perfectdog"></div>
             <h3>Find your perfect pupper!</h3>
             <p>Select your top three temperaments from the list below to find dogs that best match your choices.</p>
             <hr>
             <div class="col-lg-6" id="options">
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="intelligent">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="intelligent">
                     <label class="form-check-label" for="flexCheckDefault">
                       Intelligent
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="affectionate">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="affectionate">
                     <label class="form-check-label" for="flexCheckDefault">
                       Affectionate
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="alert">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="alert">
                     <label class="form-check-label" for="flexCheckDefault">
                         Alert
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="friendly">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="friendly">
                     <label class="form-check-label" for="flexCheckDefault">
                         Friendly
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="loyal">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="loyal">
                     <label class="form-check-label" for="flexCheckDefault">
                         Loyal
                     </label>
                 </div>
                 <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="playful">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="playful">
                     <label class="form-check-label" for="flexCheckDefault">
                         Playful
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="gentle">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="gentle">
                     <label class="form-check-label" for="flexCheckDefault">
                         Gentle
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="energetic">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="energetic">
                     <label class="form-check-label" for="flexCheckDefault">
                         Energetic
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="active">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="active">
                     <label class="form-check-label" for="flexCheckDefault">
                         Active
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="fearless">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="fearless">
                     <label class="form-check-label" for="flexCheckDefault">
                         Fearless
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="trainable">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="trainable">
                     <label class="form-check-label" for="flexCheckDefault">
                         Trainable
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="protective">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="protective">
                     <label class="form-check-label" for="flexCheckDefault">
                         Protective
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="independent">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="independent">
                     <label class="form-check-label" for="flexCheckDefault">
                         Independent
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="lively">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="lively">
                     <label class="form-check-label" for="flexCheckDefault">
                         Lively
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="companionable">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="companionable">
                     <label class="form-check-label" for="flexCheckDefault">
                         Companionable
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="confident">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="confident">
                     <label class="form-check-label" for="flexCheckDefault">
                         Confident
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="obedient">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="obedient">
                     <label class="form-check-label" for="flexCheckDefault">
                         Obedient
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="loving">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="loving">
                     <label class="form-check-label" for="flexCheckDefault">
                         Loving
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="courageous">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="courageous">
                     <label class="form-check-label" for="flexCheckDefault">
                         Courageous
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="calm">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="calm">
                     <label class="form-check-label" for="flexCheckDefault">
                         Calm
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="stubborn">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="stubborn">
                     <label class="form-check-label" for="flexCheckDefault">
                         Stubborn
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="reserved">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="reserved">
                     <label class="form-check-label" for="flexCheckDefault">
                         Reserved
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="evenTempered">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="evenTempered">
                     <label class="form-check-label" for="flexCheckDefault">
                         Even-Tempered
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="outgoing">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="outgoing">
                     <label class="form-check-label" for="flexCheckDefault">
                         Outgoing
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="strong">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Strong">
                     <label class="form-check-label" for="flexCheckDefault">
                         Strong
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="happy">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Happy">
                     <label class="form-check-label" for="flexCheckDefault">
                         Happy
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="devoted">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Devoted">
                     <label class="form-check-label" for="flexCheckDefault">
                         Devoted
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="faithful">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Faithful">
                     <label class="form-check-label" for="flexCheckDefault">
                         Faithful
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="agile">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Agile">
                     <label class="form-check-label" for="flexCheckDefault">
                         Agile
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="quiet">
+                    <input onClick="changeHandler(this)" class="form-check-input" type="checkbox" value="" id="Quiet"> <!--onClick="if(this.checked){checkIt('quiet')}"-->
                     <label class="form-check-label" for="flexCheckDefault">
                         Quiet
                     </label>
                 </div>
 
                 <br>
-                <button class="btn btn-lg btn-info col-lg-6" type="button" id="submitButton">
-                    Here puppy, puppy, puppy!
+                
+                <button class="btn btn-lg btn-info col-lg-6" type="button" id="submitButton" onClick="submitChoices()">
+                    Not Enough Selections
                 </button>
 
                 <br>
@@ -254,7 +255,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="perfect_dog.js"></script>
-    <!-- <script src="app.py"></script> -->
+    <script src="lodash.js"></script>
+    <script src="app.py"></script>
     
 </body>
 </html>

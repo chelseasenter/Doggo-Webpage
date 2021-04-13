@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 from flask import Flask, jsonify
+from flask_cors import CORS, cross_origin
 from sqlalchemy.ext.automap import automap_base
 import psycopg2
 
@@ -9,6 +10,8 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 rds_connection_string = "postgres:postgres@localhost:5432/Project_2"
 engine = create_engine(f'postgresql://{rds_connection_string}')
