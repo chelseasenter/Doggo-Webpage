@@ -48,6 +48,17 @@ p {
     top:0;bottom:0;left:0;right:0;
 }
 
+#perfectdog {
+    background:url('Pictures/wordcloudtemperaments.png');
+    opacity: .05;
+  
+    background-size:cover; 
+    background-position:center;
+    
+    position:absolute; 
+    top:0;bottom:0;left:0;right:0;
+}
+
 section {
     width:absolute;
     height:1200px;
