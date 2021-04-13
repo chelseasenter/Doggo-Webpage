@@ -87,16 +87,8 @@ function submitChoices(){
             console.log(`https://cdn2.thedogapi.com/images/${response[n_res].image}.jpg... pic is ${response[n_res].image}`);
             d3.select("#dogChoiceCard>img").attr("src",`https://cdn2.thedogapi.com/images/${response[n_res].image}.jpg`);
         }
-        console.log(message);
-        // return [message, img];
     });
 
-    console.log(res_array[0]);
-    // Change card image
-    d3.select("#dogChoiceCard>img").attr("src",res_array[1]);
-
-    // Change message
-    d3.select("#defaultPupChoice").text(res_array[0]);
 
 }
 
