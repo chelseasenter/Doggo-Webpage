@@ -34,7 +34,9 @@ This is how we decided to fulfill these requirements:
 *We just need an API of good quality dog data, how hard can that be? Everyone loves dogs!* <p>
 
 When we went on our initial quest in search of basic dog breed information in the form of an API, we stumbled upon [The Dog API](https://thedogapi.com/) website. It showed promising results, as the picture below shows:
-![The Dog API Sample](Proposal/'README images'/thedogapisample.png)
+
+![The Dog API Sample](Proposal/readme/thedogapisample.png)
+
 ## Website Outline
 
 ## Reflections on this Project
