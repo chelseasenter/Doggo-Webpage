@@ -210,9 +210,10 @@ function submitChoices(breedSelection){
     console.log(breedSelection);
     getSQLresults(breedSelection).then(response => {
         console.log(response);
-        d3.select(".card-body").text(`Awesome! You've selected ${breedSelection}!\n
+        d3.select(".card-body").text(`You've selected ${breedSelection}!\n
                     This puppers can live up to ${response[0].mlifespan} years.\n
-                    It can grow to be ${response[0].mweight} lbs, and ${response[0].mheight} inches tall! Woof!`);
+                    It can grow to be ${response[0].mweight} lbs, and ${response[0].mheight} inches tall! \n
+                    Would you like to see another dog? Just select it from the list! Woof!`);
     });
 // image source 
 }
