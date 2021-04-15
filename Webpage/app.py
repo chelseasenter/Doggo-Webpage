@@ -74,24 +74,31 @@ def perfectpup(temp1, temp2, temp3):
 
     return jsonify(breed_results)
 
-@app.route('/dog_breed_info')
+@app.route('/dog_breed_info/<breedSelection>')
 
-def dog_breed_info():
+def dog_breed_info(breedSelection):
     conn = psycopg2.connect(
         host="localhost",
         database="Project_2",
         user="postgres",
         password="postgres")
-
-    drop_down_dog_breed = 'Alaskan Malamute'
     
     cur = conn.cursor()
     cur.execute(
-        "SELECT * FROM breed"
-        f"    WHERE breed.breed_name = '{drop_down_dog_breed}'"
+        "SELECT breed_name, max_height, max_weight, max_lifespan FROM breed"
+        f"    WHERE breed.breed_name = '{breedSelection}'"
     )
     dog_breed_selected = cur.fetchall()
-    return jsonify(dog_breed_selected)
+    breed_results = []
+    for breedn, mheight, mweight, mlifespan in dog_breed_selected:
+        temp = {}
+        temp['name'] = breedn
+        temp['mheight'] = mheight
+        temp['mweight'] = mweight
+        temp['mlifespan'] = mlifespan
+        breed_results.append(temp)
+
+    return jsonify(breed_results)
  
 
 if __name__ == "__main__":
