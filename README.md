@@ -50,12 +50,12 @@ We were excited to have all this data. This API would give us a dog breed name, 
 * wikipedia url - if users need more information, we could guide them to wikipedia
 
 #### The Truth Comes Out (Data Cleaning)
-In our first steps of data cleaning, we needed to retrieve the API's json information and create a dataframe from this data. This is when we realized what we were really working with:
+In our first steps of data cleaning, we needed to retrieve the API's json information and create a dataframe from this data. This is when we realized what we were really working with. The image below shows a dictionary we created of all keys given for the dog breeds returned form the API and the values show how many times those keys came up in the whole dataset: 
 
 ![The Actual API json](Proposal/readme/datacounts.PNG)
 <p>
  
-The image above shows a dictionary of all keys given for the dog breeds, the values show how many times those keys came up in the whole set. As you can gather, there were some fields that were either minimal or non-existant ('origin' shows 5 occurances in all 172 dog breed records and phsyical attributes were not included at all). We're not sure what the developers of this API have updated or changed since the example was presented in their documentation, but apparently a lot was missing or had changed drastically. 
+As you can gather, there were some fields that were either minimal or non-existant ('origin' shows 5 occurances in all 172 dog breed records and phsyical attributes were not included at all). We're not sure what the developers of this API have updated or changed since the example was presented in their documentation, but apparently a lot was missing or had changed drastically. 
 ## Website Outline
 
 ## Reflections on this Project
