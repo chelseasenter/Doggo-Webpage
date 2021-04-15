@@ -51,6 +51,7 @@ We were excited to have all this data. This API would give us a dog breed name, 
 
 #### The Truth Comes Out (Data Cleaning)
 In our first steps of data cleaning, we needed to retrieve the API's json information and create a dataframe from this data. This is when we realized what we were really working with:
+
 ![The Actual API json](Proposal/readme/datacounts.PNG)
 <p>
  
