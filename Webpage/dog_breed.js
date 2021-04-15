@@ -187,8 +187,7 @@ var html = [];
 for (var i = 0; i < breeds.length; i++) {//begin for loop
   
     //add the option elements to the html array
-    html.push('<li><a class="dropdown-item" href="#">' + breeds[i] + '</a></li>')
-    
+    html.push('<li><a id="' + breeds[i] + '" class="dropdown-item" onclick="submitChoices(\'' + breeds[i] + '\')">' + breeds[i] + '</a></li>')
   }//end for loop
   
   //add the option values to the select list with an id of breed
@@ -197,17 +196,25 @@ for (var i = 0; i < breeds.length; i++) {//begin for loop
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // Adding action to submit choices and find dog
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-var submitButton = d3.select("#dropdownMenuButton1");
-// var submitButton = document.querySelector("#dropdownMenuButton1");
 
-function updateSelection(){
-    var menu = d3.select("#dropdownMenuButton1").node();
-    // var menu = document.querySelector("#dropdownMenuButton1");
-    var chosen = menu.value;
-    console.log('a change has occurred')
+
+function getSQLresults(breedSelection){
+    const url = `http://127.0.0.1:5000/dog_breed_info/${breedSelection}`;
+    console.log(url)
+    return fetch(url).then(response => response.json());
 }
 
-submitButton.on("change", updateSelection);
-/////////////////////////////////////////////////////////////////////////////////////////////////////
+function submitChoices(breedSelection){
+    // Calling results from SQL
+    console.log('Its been clicked');
+    console.log(breedSelection);
+    getSQLresults(breedSelection).then(response => {
+        console.log(response);
+        d3.select(".card-body").text(`Awesome! You've selected ${breedSelection}!\n
+                    This puppers can live up to ${response[0].mlifespan} years.\n
+                    It can grow to be ${response[0].mweight} lbs, and ${response[0].mheight} inches tall! Woof!`);
+    });
+// image source 
+}
 
-// Next steps (if time allows): create scroll bar for dog breeds
+/////////////////////////////////////////////////////////////////////////////////////////////////////
