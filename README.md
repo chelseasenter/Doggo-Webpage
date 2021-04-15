@@ -10,7 +10,11 @@
 
 ## Website Purpose
 *We love dogs, what more can we say?*  <p>
-The purpose of this website is to provide infomration on dog breeds, help users find their perfect dog, provide meaning data visualizations of our doggy data, and - last but not least - create a Dungeons&Dragons-style game where users can select dog characters to "play" against each other and see who wins out (cleverly named Dungeons&Doggos).  <p>  <p>
+The purpose of this website is to:
+* provide infomration on dog breeds
+* help users find their perfect dog
+* provide meaning data visualizations of our doggy data
+* AND -last but not least - create a Dungeons&Dragons-style game where users can select dog characters to "play" against each other and see who wins out (cleverly named Dungeons&Doggos).  <p>  <p>
 Our project had to include the following:
 * Python Flask-powered API 
 * HTML, CSS, & JavaScript
