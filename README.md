@@ -82,19 +82,21 @@ Our data cleaning progressed further:
 ![Doggos! Homepage](Proposal/readme/homepage.PNG)
 Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos
 #### Dog Breed Info page
-![Dog Info](Proposal/readme/doginfo1.PNG =250x250)
-![Dog Info Results](Proposal/readme/doginfo2.PNG =250x250)
+![Dog Info](Proposal/readme/doginfo1.PNG)
+![Dog Info Results](Proposal/readme/doginfo2.PNG)
 
 #### Find Your Perfect Dog page
-![Perfect Puppers](Proposal/readme/perfectdoggo.PNG =250x250)
-![Perfect Puppers Results](Proposal/readme/perfectdoggo2.PNG =250x250)
+![Perfect Puppers](Proposal/readme/perfectdoggo.PNG)
+![Perfect Puppers Results](Proposal/readme/perfectdoggo2.PNG)
 
 #### Compare Doggo Data (visualizations)
-![Doggo Data](Proposal/readme/doggodata.PNG =250x250)
-![Doggo Data Results](Proposal/readme/doggodata2.PNG =250x250)
+![Doggo Data](Proposal/readme/doggodata.PNG)
+![Doggo Data Results](Proposal/readme/doggodata2.PNG)
 
 #### Dungeons&Doggos
-![Dungeons&Doggos: Coming Soon!](Proposal/readme/dndsoon.PNG =250x250)
-![Dungeons&Doggos: Inspiration Pictures](Proposal/readme/dndpics.PNG =250x250)
+![Dungeons&Doggos: Coming Soon!](Proposal/readme/dndsoon.PNG)
+![Dungeons&Doggos: Inspiration Pictures](Proposal/readme/dndpics.PNG)
+
+<img src="Proposal/readme/dndsoon.PNG" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
 
 ## Reflections on this Project
