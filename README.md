@@ -81,9 +81,11 @@ Our data cleaning progressed further:
 #### Homepage
 ![Doggos! Homepage](Proposal/readme/homepage.PNG)
 Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos
+
 #### Dog Breed Info page
-![Dog Info](Proposal/readme/doginfo1.PNG)
-![Dog Info Results](Proposal/readme/doginfo2.PNG)
+<img src="Proposal/readme/doginfo1.PNG" data-canonical-src="Proposal/readme/doginfo1.PNG" width="50%" height="50%" />
+<img src="Proposal/readme/doginfo2.PNG" data-canonical-src="Proposal/readme/doginfo2.PNG" width="50%" height="50%" />
+
 
 #### Find Your Perfect Dog page
 ![Perfect Puppers](Proposal/readme/perfectdoggo.PNG)
@@ -97,6 +99,5 @@ Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Per
 ![Dungeons&Doggos: Coming Soon!](Proposal/readme/dndsoon.PNG)
 ![Dungeons&Doggos: Inspiration Pictures](Proposal/readme/dndpics.PNG)
 
-<img src="Proposal/readme/dndsoon.PNG" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="50%" height="50%" />
 
 ## Reflections on this Project
