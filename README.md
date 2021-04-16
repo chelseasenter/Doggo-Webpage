@@ -52,7 +52,7 @@ On our initial quest in search of basic dog breed information APIs, we stumbled 
 ![The Dog API Sample](Proposal/readme/thedogapisample.PNG)
 
 #### Hopeful Beginnings
-We were excited to have all this data. This API would give us a dog breed name, its life span, country of origin, rarity, a reference image ID (for adding a picture), physical characteristics (short legs, suppressed tail, etc), temperaments, and a wikipedia url (among other things). We had come up with a few ideas for how to use this information:
+We were excited for this data. This API would give us a dog breed name, its life span, country of origin, rarity, a reference image ID (for adding a picture), physical characteristics (short legs, suppressed tail, etc), temperaments, and a wikipedia url (among other things). We had come up with a few ideas for how to use this information:
 * country of origin - wouldn't it be cool to have a heat map of where dog breeds originated from? Would we see any patterns?
 * physical characteristics (short legs, suppressed tail, etc) - we could add these traits to our D&Doggos game as bonuses/penalties to dog abilities (for example, short legs could give a -2 to jumping or a bonus to evasion - we all know how hard tiny animals are to catch)
 * temperaments - we could break down this list and look for frequency of each temperament to see what dogs are most commonly bred for
@@ -78,5 +78,9 @@ Our data cleaning progressed further:
   3. in the end, we decided to scrap the visualization for this field
 
 ## Website Outline
-
+### Homepage
+### Doggo information page
+### Find your perfect puppers page
+### Doggy Data (visualizations)
+### Dungeons&Doggos
 ## Reflections on this Project
