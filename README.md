@@ -67,10 +67,11 @@ While we were disappointed of our recent enlightenments, we did come across some
 Our data cleaning progressed further:
 * **Temperaments:** splitting the temperament lists into individual temperaments, then for-looping to create a list of unique temperaments
 * **Breed Groups:** pulling all groups, replacing blanks with "None", and putting those values into a list of unique breed groups
-* **Bred For:** we realized this key contained loose, inconsistent strings (essentially inconsistent user input)
-  * we tried looking for key words by splitting the senctences and putting each word in a dictionary as a key with their count as the value
-  * however, this didn't work out because we came up with articles (in, a, an, the, for, etc) and different versions of the same word (hunter, hunting, hunt)
-  * in the end, we decided to scrap the visualization for this field
+* **Bred For:** we realized this key contained inconsistent user input (whole sentences or phrases and little to know duplicates)
+  1. we tried looking for key words by splitting the senctences and putting each word in a dictionary as a key with their count as the value
+  1. however, this didn't work out because we came up with articles (in, a, an, the, for, etc) and different versions of the same word (hunter, hunting, hunt)
+  1. in the end, we decided to scrap the visualization for this field
+
 ## Website Outline
 
 ## Reflections on this Project
