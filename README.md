@@ -83,20 +83,19 @@ Our data cleaning progressed further:
 Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos
 
 #### Dog Breed Info page
-<img src="Proposal/readme/doginfo1.PNG" data-canonical-src="Proposal/readme/doginfo1.PNG" width="50%" height="50%" />" "<img src="Proposal/readme/doginfo2.PNG" data-canonical-src="Proposal/readme/doginfo2.PNG" width="50%" height="50%" />
+<img src="Proposal/readme/doginfo1.PNG" data-canonical-src="Proposal/readme/doginfo1.PNG" width="50%" height="50%" /><img src="Proposal/readme/doginfo2.PNG" data-canonical-src="Proposal/readme/doginfo2.PNG" width="50%" height="50%" />
 
 
 #### Find Your Perfect Dog page
-![Perfect Puppers](Proposal/readme/perfectdoggo.PNG)
-![Perfect Puppers Results](Proposal/readme/perfectdoggo2.PNG)
+<img src="Proposal/readme/perfectdoggo.PNG" data-canonical-src="Proposal/readme/perfectdoggo.PNG" width="50%" height="50%" />
+<img src="Proposal/readme/perfectdoggo2.PNG" data-canonical-src="Proposal/readme/perfectdoggo2.PNG" width="50%" height="50%" />
 
 #### Compare Doggo Data (visualizations)
-![Doggo Data](Proposal/readme/doggodata.PNG)
-![Doggo Data Results](Proposal/readme/doggodata2.PNG)
+<img src="Proposal/readme/doggodata.PNG" data-canonical-src="Proposal/readme/doggodata.PNG" width="50%" height="50%" />
+<img src="Proposal/readme/doggodata2.PNG" data-canonical-src="Proposal/readme/doggodata2.PNG" width="50%" height="50%" />
 
 #### Dungeons&Doggos
-![Dungeons&Doggos: Coming Soon!](Proposal/readme/dndsoon.PNG)
-![Dungeons&Doggos: Inspiration Pictures](Proposal/readme/dndpics.PNG)
-
+<img src="Proposal/readme/dndsoon.PNG" data-canonical-src="Proposal/readme/dndsoon.PNG" width="50%" height="50%" />
+<img src="Proposal/readme/dndpics.PNG" data-canonical-src="Proposal/readme/dndpics.PNG" width="50%" height="50%" />
 
 ## Reflections on this Project
