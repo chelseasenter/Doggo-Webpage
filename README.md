@@ -61,7 +61,8 @@ We were excited for this data. This API would give us a dog breed name, its life
 #### The Truth Comes Out (Data Cleaning)
 In our first steps of data cleaning, we needed to retrieve the API's json information and create a dataframe from this data. This is when we realized what we were really working with. The image below shows a dictionary we created to preview the types of dog data that existed in all 172 records, along with the count of that specific field.
 
-![The Actual API json](Proposal/readme/datacounts.PNG)
+<img src="Proposal/readme/datacounts.PNG" data-canonical-src="Proposal/readme/datacounts.PNG" width="50%" height="50%" />
+
 <p>
  
 As you can gather, fields we were expecting to use were minimal or non-existant ('origin' shows 5 occurances in all 172 dog breed records and phsyical attributes were not included at all). We're not sure what the developers of this API have updated or changed since the example was presented in their documentation, but apparently a lot was missing or had changed drastically. We decided to scrap our heat map and wikipedia information ideas and revisit the physical characteristics once we got working on our D&Doggos page (fortunately, it was something we could visually see in dog photos). 
@@ -99,3 +100,11 @@ Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Per
 <img src="Proposal/readme/dndpics.PNG" data-canonical-src="Proposal/readme/dndpics.PNG" width="50%" height="50%" />
 
 ## Reflections on this Project
+#### Dungeons&Doggos: A quest not yet unlocked
+With the other requirements of our project, we were unable to get to the most anticipated part of our project, the D&D-like dog play page. Hopefully we'll be able to finish it in the future, so be sure to check on our site from time to time for updates!
+
+#### The Dog API data: a lesson in pre-planning
+An important step in any data analytics related project - get a metadata summary! Everything on the internet is constantly updating, changing, or going out-of-date. The important lesson we learned here was to really dig into what the data looks like instead of trusting an example that might not have been updated with the actual data. Get the metadata summary, see what's there to work with and what might be missing before committing to it as a reliable data source.
+
+#### Github Group Work: COMMUNICATION
+In a project like this, communication and consistent commit habits are what help the group machine run well. We ran into many issues of not all having the correct information because someone didn't commit their work (not saying it was me most of the time, but it was me most of the time). This project was a hard but NECESSARY lesson in development teamwork.
