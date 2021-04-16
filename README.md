@@ -3,15 +3,15 @@
 ## Welcome to our Webpage about dogs!
 
 ### *Overview* 
-> Website Purpose <p>
-> Data: Extracting, Transforming, Loading <p>
-> Website Outline <p>
->> Homepage <p>
->> Doggo information page <p>
->> Find your perfect puppers page <p>
->> Doggy Data (visualizations) <p>
->> Dungeons&Doggos <p>
-> Reflections on this Project <p>
+* Website Purpose <p>
+* Data: Extracting, Transforming, Loading <p>
+* Website Outline <p>
+  * Homepage <p>
+  * Doggo information page <p>
+  * Find your perfect puppers page <p>
+  * Doggy Data (visualizations) <p>
+  * Dungeons&Doggos <p>
+* Reflections on this Project <p>
 
 ## Website Purpose
 *We love dogs, what more can we say?*  <p>
