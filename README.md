@@ -97,6 +97,6 @@ Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Per
 ![Dungeons&Doggos: Coming Soon!](Proposal/readme/dndsoon.PNG)
 ![Dungeons&Doggos: Inspiration Pictures](Proposal/readme/dndpics.PNG)
 
-<img src="Proposal/readme/dndsoon.PNG" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="400" />
+<img src="Proposal/readme/dndsoon.PNG" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="400" height="400" />
 
 ## Reflections on this Project
