@@ -13,7 +13,7 @@
 The purpose of this website is to:
 * provide information on dog breeds
 * help users find their perfect dog
-* provide meaning data visualizations of our doggy data
+* provide meaningful data visualizations of our doggy data
 * AND -last but not least - create a Dungeons&Dragons-style game where users can select dog characters to "play" against each other and see who wins out (cleverly named Dungeons&Doggos).  <p>  <p>
 
 #### Our project had to include the following:
@@ -21,6 +21,10 @@ The purpose of this website is to:
 * HTML, CSS, & JavaScript
 * One Database (relational or non-relational)
 * 1 of 4 Tracks
+ * A custom “creative” D3.js project (i.e., a nonstandard graph or chart)
+ * A combination of web scraping and Leaflet or Plotly
+ * A dashboard page with multiple charts that update from the same data
+ * A “thick” server that performs multiple manipulations on data in a database prior to visualization
 * A new JS Library not already used in the course
 * Dataset with at least 100 records
 * User-driven interactions (drop-downs, menus, textboxes)
