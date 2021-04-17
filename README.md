@@ -82,24 +82,35 @@ Our data cleaning progressed further:
 #### Homepage
 Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos<br>
 ![Doggos! Homepage](Proposal/readme/homepage.PNG)
-
+<br>
+<br>
 
 #### Dog Breed Info page
 Here we have a dropdown menu with over 100 dog breeds available to choose from. When you click on a dog breed, there is a card with a few facts about that particular breed.<br>
 <img src="Proposal/readme/doginfo1.PNG" data-canonical-src="Proposal/readme/doginfo1.PNG" width="50%" height="50%" /><img src="Proposal/readme/doginfo2.PNG" data-canonical-src="Proposal/readme/doginfo2.PNG" width="50%" height="50%" />
-
+<br>
+<br>
 
 #### Find Your Perfect Dog page
+This page has 29 of the top temperaments shared by the available dog breeds. You are allowed to only choose three temperaments that you would like to choose in a dog. From your choices, there are either results that show containing a picture of the dog and some facts about the breed, or no results with a message prompting you to try your search again. You can also change your choices by hitting the reset button and clearing the selections.<br>
 <img src="Proposal/readme/perfectdoggo.PNG" data-canonical-src="Proposal/readme/perfectdoggo.PNG" width="50%" height="50%" />
 <img src="Proposal/readme/perfectdoggo2.PNG" data-canonical-src="Proposal/readme/perfectdoggo2.PNG" width="50%" height="50%" />
+<br><br>
 
 #### Compare Doggo Data (visualizations)
+We had some data points spanning the dog breeds regarding weight, height, and life span, and wanted to display these data with plots, and show trends in the data that may be interesting. We found that there are trends that show smaller and lighter dogs live much longer than taller or heavier dogs.
+<br>
 <img src="Proposal/readme/doggodata.PNG" data-canonical-src="Proposal/readme/doggodata.PNG" width="50%" height="50%" />
 <img src="Proposal/readme/doggodata2.PNG" data-canonical-src="Proposal/readme/doggodata2.PNG" width="50%" height="50%" />
+<br>
+<br>
 
 #### Dungeons&Doggos
+This is the future webpage! This was going to be our bonus page containing a game where you choose fictitious doggy characters with special and unusual powers, that use these powers in exciting ways to battle each other for bragging rights and power over the others. Unfortunately we did not get a chance to create the page, but we plan to do so soon.<br>
 <img src="Proposal/readme/dndsoon.PNG" data-canonical-src="Proposal/readme/dndsoon.PNG" width="50%" height="50%" />
 <img src="Proposal/readme/dndpics.PNG" data-canonical-src="Proposal/readme/dndpics.PNG" width="50%" height="50%" />
+<br>
+<br>
 
 ## Reflections on this Project
 #### Dungeons&Doggos: A quest not yet unlocked
