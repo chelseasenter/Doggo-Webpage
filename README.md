@@ -80,10 +80,12 @@ Our data cleaning progressed further:
 
 ## Website Outline
 #### Homepage
+Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos<br>
 ![Doggos! Homepage](Proposal/readme/homepage.PNG)
-Our intro page starts off the user with 4 options: Dog Breed Info, Find Your Perfect Dog, Compare Doggo Data, and Dungeons&Doggos
+
 
 #### Dog Breed Info page
+Here we have a dropdown menu with over 100 dog breeds available to choose from. When you click on a dog breed, there is a card with a few facts about that particular breed.<br>
 <img src="Proposal/readme/doginfo1.PNG" data-canonical-src="Proposal/readme/doginfo1.PNG" width="50%" height="50%" /><img src="Proposal/readme/doginfo2.PNG" data-canonical-src="Proposal/readme/doginfo2.PNG" width="50%" height="50%" />
 
 
